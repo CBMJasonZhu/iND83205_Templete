@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>2551348181</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\Src\Function_Blocks\ColorMixingTask\colorFormula.h</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\applicationTask.c</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\colorCompensationTask.c</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\linMasterTask.c</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\linSlaveTask.c</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\measureTask.c</file>
+            <file>$PROJ_DIR$\..\Src\drivers\core\src\cstartup_M.c</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\safetyMonitorTask.c</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\appConfig.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\pmua_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\src\clock_device.c</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\timer0_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\lins_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\pwm_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\src\wdt_device.c</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\src\timer_device.c</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\sysctrla_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\timer2_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\adc_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\crga_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\gpio_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\timer1_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\wdta_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hwcfg\src\hwcfg.c</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\src\hwProtection.c</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\realplum_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\core\src\low_level_init.c</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\src\flash_device.c</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\evthold_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\src\gpio_device.c</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\src\lin_device.c</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\wdt1_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\src\systick_device.c</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\src\adc_device.c</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\wica_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\usr\library\ColorMixingTask.a</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\src\pmu_device.c</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\src\pwm_device.c</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\linm_sfr.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\sfrs\ioctrla_sfr.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\pwm_device.pbi</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\inc\hwProtection.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\systick_device.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\pmu_device.pbi</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\inc\lin_device.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\inc\wdt_device.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\inc\systick_device.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\inc\errno.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\inc\adc_device.h</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\inc\flash_device.h</file>
+            <file>$PROJ_DIR$\..\Src\usr\leds\ledParamTables.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_device.pbi</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\inc\pwm_device.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_device.pbi</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\inc\atomic.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hwcfg.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer_device.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio_device.pbi</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\inc\gpio_device.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hwcfg.o</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\inc\timer_device.h</file>
+            <file>$PROJ_DIR$\..\Src\usr\library\colorMixingTask.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdt_device.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\timer_device.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\hwProtection.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\wdt_device.o</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\inc\clock_device.h</file>
+            <file>$PROJ_DIR$\..\Src\usr\library\softTimerTask.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\linMasterTask.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\gpio_device.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\measureTask.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\DemoTemplete.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\safetyMonitorTask.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\linSlaveTask.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\systemInit.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\taskManager.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hdf\realplum.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\flash_device.o</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hwcfg\inc\hwcfg.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\taskManager.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\measureTask.o</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\linstack.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\hwProtection.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\applicationTask.o</file>
+            <file>$PROJ_DIR$\..\Src\drivers\hal\inc\pmu_device.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc_device.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\DemoTemplete.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock_device.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\lin_device.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\systemInit.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\pmu_device.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\pwm_device.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\systick_device.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\systemInit.c</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\taskManager.c</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\linSlaveTask.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\safetyMonitorTask.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cstartup_M.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\low_level_init.o</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\colorCompensationTask.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\Src\usr\library\SoftTimerTask.a</file>
+            <file>$PROJ_DIR$\..\Src\usr\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\linSlaveTask.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\colorCompensationTask.pbi</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\applicationTask.h</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\linMasterTask.h</file>
+            <file>$PROJ_DIR$\..\Src\usr\leds\LedParamTables.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\cstartup_M.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\LedParamTables.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\clock_device.pbi</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm0.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\isrfuncs.h</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\safetyMonitorTask.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\applicationTask.pbi</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\measureTask.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\colorCompensationTask.o</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\linMasterTask.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\lin_device.pbi</file>
+            <file>$PROJ_DIR$\..\Src\usr\common\taskManager.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\low_level_init.pbi</file>
+            <file>$PROJ_DIR$\..\Src\drivers\core\inc\verne.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\LedParamTables.o</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\usr\common\applicationTask.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 130</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80 34 128 78 75 143 61 134 44 20 140 50 8 115 108 38 31 124 137 46 48 60 66 103 92 112 25 9 13 39 21 82 118 123 54 142 49 18 47 67 11 129 69 58 88 52 126 117 99 139 19 28 22 12 16 17 122 133 127 0 85 102 131 114</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\usr\common\colorCompensationTask.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 134 18 137 25 117 19 122 82 22 11 128 9 75 67 50 41 47 8 131 52 126 143 99 139 28 12 16 17 78 61 125 66 108 103 80 92 112 34 13 38 39 20 21 31 133 142 127 0 140 107 118 123 54 49 46 48 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\usr\common\linMasterTask.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 135</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78 9 85 39 80 134 67 66 103 92 112 25 13 21 46 75 137 108 34 38 20 31 128 143 102 49 61 8 44 52 126 82 117 99 139 19 28 22 12 18 16 11 17 118 123 54 142 124 140 48 115 122 133 127 88 131 0 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\usr\common\linSlaveTask.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 134 16 78 75 46 99 28 9 137 49 52 126 143 139 12 17 8 44 124 82 117 19 22 18 11 122 61 67 88 131 66 108 103 80 92 112 25 34 13 38 39 20 21 31 133 142 127 140 48 102 128 118 123 54 0 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\usr\common\measureTask.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 134 99 28 48 16 0 8 52 126 143 139 12 17 128 80 75 78 46 61 82 117 19 22 18 11 67 137 50 66 108 103 92 112 25 9 34 13 38 39 20 21 31 118 123 54 142 140 131 122 133 127 49</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\drivers\core\src\cstartup_M.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\usr\common\safetyMonitorTask.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\drivers\hal\src\clock_device.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\drivers\hal\src\wdt_device.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\drivers\hal\src\timer_device.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\drivers\hwcfg\src\hwcfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\drivers\hal\src\hwProtection.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\drivers\core\src\low_level_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\drivers\hal\src\flash_device.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\drivers\hal\src\gpio_device.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\drivers\hal\src\lin_device.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 136</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\drivers\hal\src\systick_device.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\drivers\hal\src\adc_device.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\drivers\hal\src\pmu_device.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\drivers\hal\src\pwm_device.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\usr\common\systemInit.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\usr\common\taskManager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\usr\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 94</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\usr\leds\LedParamTables.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
