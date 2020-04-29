@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<optionMenuItem>
+  <tag>Realplum</tag>
+  <display>IndieSemi Realplum</display>
+  <data>$CUR_DIR$\realplum.i79</data>
+</optionMenuItem>

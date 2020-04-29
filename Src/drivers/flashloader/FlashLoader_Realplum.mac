@@ -1,0 +1,113 @@
+/*____________________________________________________________________________
+
+COPYRIGHT 2010 AyDeeKay LLC - All Rights Reserved
+No part of this document can be used, copied, transmitted, or modified by any
+existing or to be invented means without express approval of AyDeeKay LLC.
+_______________________________________________________________________________
+
+FILE:     FlashLoader_ChipVerneBased.MAC
+PROJECT:  Chip Verne Based
+
+Description:  This file contains the routines to initialize the flash routine
+               ICE <--> RAM <--> FLASH
+
+Environment Information and Building Instructions:
+
+Hardware Platform:  Chip Verne Based Board
+Processor:          Cortex M0
+
+******************************************************************************/
+
+setup()
+{
+  //Sequence to properly power-up the part's flash 
+    __message " ***** !!!! SETUP MACRO EXECUTED !!!!! ***** ";
+}		      
+
+/*******************************************************************************
+execUserFlashInit:
+Called once before the flash loader is downloaded to RAM.
+Implement this macro typically for setting up the memory map
+required by the flash loader. This macro is only called when you are
+programming flash, and it should only be used for flash loader
+functionality.
+*******************************************************************************/
+execUserFlashInit()  // Called by debugger before loading flash loader in RAM.
+{
+  __message " ***** execUserFlashInit ***** ";
+  setup();
+}
+
+
+/*******************************************************************************
+execUserPreload:
+Called after communication with the target system is established
+but before downloading the target application.
+Implement this macro to initialize memory locations and/or
+registers which are vital for loading data properly.
+*******************************************************************************/
+execUserPreload()
+{
+  __message " ***** execUserPreload ***** ";
+  //setup();
+  __delay(100);
+}
+
+
+/*******************************************************************************
+execUserReset:
+Called each time the reset command is issued.
+Implement this macro to set up and restore data.
+*******************************************************************************/
+execUserReset()
+{
+  __message " ***** execUserReset ***** ";
+  //setup();
+  __delay(100);
+}
+
+
+/*******************************************************************************
+execUserSetup:
+Called once after the target application is downloaded.
+Implement this macro to set up the memory map, breakpoints,
+interrupts, register macro files, etc.
+*******************************************************************************/
+execUserSetup()
+{
+  __message " ***** execUserSetup ***** ";
+}
+
+
+/*******************************************************************************
+execUserFlashReset:
+Called once after the flash loader is downloaded to RAM, but
+before execution of the flash loader. This macro is only called when
+you are programming flash, and it should only be used for flash
+loader functionality.
+*******************************************************************************/
+execUserFlashReset()
+{
+  __message " ***** execUserFlashReset ***** ";
+}
+
+/*******************************************************************************
+execUserExit:
+Called once when the debug session ends.
+Implement this macro to save status data etc.
+*******************************************************************************/
+execUserExit()
+{
+  __message " ***** execUserExit ***** ";
+}
+
+/*******************************************************************************
+execUserFlashExit:
+Called once when the debug session ends.
+Implement this macro to save status data etc. This macro is useful
+for flash loader functionality.
+*******************************************************************************/
+execUserFlashExit()
+{
+  __message " ***** execUserFlashExit ***** ";
+}

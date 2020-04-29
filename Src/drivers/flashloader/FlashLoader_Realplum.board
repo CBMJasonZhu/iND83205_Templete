@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<flash_board>
+  <pass>
+    <loader>$TOOLKIT_DIR$\config\flashloader\IndieSemi\FlashLoader_ChipVerneBased.flash</loader>
+    <range>CODE 0x0 0x10000</range>
+    <rel_offset>0</rel_offset>
+  </pass>
+</flash_board>

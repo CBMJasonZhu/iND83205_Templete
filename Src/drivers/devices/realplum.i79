@@ -1,0 +1,41 @@
+[FILEFORMAT]
+rev=1.5
+
+[CHIP]
+//Chip name
+name=Realplum
+
+//What endian modes does the chip support? (littleonly, bigonly, both(default))
+endiansupport=
+
+//Does the chip support the thumb instruction set? (true(default), false)
+thumbsupport=true
+
+//Does the chip support the arm instruction set? (true(default), false)
+armsupport=false
+
+//Does the chip have an FPU coprocessor?
+//(VFPv1,VFPv2,VFP9-S,None(default)
+fpu=
+
+
+[CORE]
+//Name of the ARM processor core
+name=Cortex-M0
+
+
+[DDF FILE]
+//Name of the ddf file
+name=
+
+[XCL FILE]
+//Name of the linker config file
+name=
+
+
+[FLASH LOADER]
+name=$TOOLKIT_DIR$\config\flashloader\IndieSemi\FlashLoader_Realplum.board
+little=
+big=
+args=
+
